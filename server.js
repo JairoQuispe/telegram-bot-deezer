@@ -2,8 +2,7 @@
 
 let token = process.argv[2];
 const Telegraf = require('telegraf'),
-	  //bot = new Telegraf(`${token}`);
-	  bot = new Telegraf('275039128:AAEmpDVu7ZeHJus98hdtGYpoE7zq68JmZmI');
+	  bot = new Telegraf(`${token}`);
 const { Extra, Markup } = require('telegraf');
 
 const search = require('./search');
