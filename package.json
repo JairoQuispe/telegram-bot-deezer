@@ -1,0 +1,17 @@
+{
+  "name": "tlg-bot-openshift",
+  "version": "0.0.1",
+  "description": "Bot de Telegram",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js $TOKEN"
+  },
+  "author": "JairoQuispe",
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "node-id3": "0.0.7",
+    "request": "^2.79.0",
+    "telegraf": "3.8.0"
+  }
+}
